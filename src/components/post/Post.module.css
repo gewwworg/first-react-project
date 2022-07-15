@@ -1,0 +1,94 @@
+.PostsList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    height: 400px;
+
+    overflow-y: auto;
+
+    margin-top: 3%;
+    
+}
+
+.Post {
+    margin-left: 4%;
+
+    margin-top: 2%;
+
+    width: 1200px;
+    height: 274px;
+
+
+    background: #EAEAEA;
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.PostTheme {
+
+    margin-left: 3%;
+    margin-top: 2%;
+
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+
+}
+
+.PostText {
+    margin-left: 3%;
+    margin-top: 1%;
+
+    margin-right: 5%;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #525151;
+
+}
+
+.PostAuthor {
+    text-align: end;
+    margin-right: 5%;
+
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A4A4A4;
+
+}
+
+.TopHider {
+    position: absolute;
+    margin-left: 4%;
+
+
+    width: 1200px;
+    height: 93px;
+
+
+    background: linear-gradient(180deg, #E8E8E8 0%, rgba(217, 217, 217, 0) 88.99%);
+}
+
+.BottomHider {
+    position: absolute;
+    margin-left: 4%;
+
+    margin-top: 25%;
+
+    width: 1200px;
+    height: 93px;
+
+
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #E8E8E8 88.99%);
+}

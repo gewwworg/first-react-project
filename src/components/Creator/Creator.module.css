@@ -1,0 +1,85 @@
+.CreationBox {
+    position: absolute;
+    width: 80%;
+    height: 60%;
+
+    margin-left: 9%;
+    margin-top: 1%;
+
+    background: #EAEAEA;
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.PostTheme {
+
+    margin-left: 3%;
+    margin-top: 2%;
+
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+
+}
+
+.PostThemeInput {
+    width: 70%;
+    height: 10%;
+
+
+    margin-left: 3%;
+    margin-top: 1%;
+    border: none;
+
+    font-family: 'Rubik Mono One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #A4A4A4;
+
+    padding: 12px 25px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+
+.PostTextInput {
+    width: 70%;
+    height: 30%;
+
+
+    margin-left: 3%;
+    margin-top: 1%;
+    border: none;
+
+    font-family: 'Rubik Mono One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #A4A4A4;
+
+    padding: 12px 25px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.CreateBtn {
+    border: none;
+    outline: none;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #A4A4A4;
+    text-align: end;
+    margin-left: 2%;
+}
